@@ -39,7 +39,7 @@ A sample objective function, `f_3.m`, is provided to demonstrate how to define a
 #### `f_3.m`
 ```matlab
 function z = f_3(x)
-    z = sum(x.^2); % Example: Sphere function
+    f=x(1)^2+1e6*sumsqr(x(2):x(end)); % Example: Cigar function
 end
 ```
 
